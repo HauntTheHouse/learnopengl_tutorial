@@ -55,25 +55,25 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durda/CLionProjects/OpenGL_Test_HelloTriangle
+CMAKE_SOURCE_DIR = /home/durda/CLionProjects/learnopengl_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug
+CMAKE_BINARY_DIR = /home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/OpenGL_Test_HelloTriangle.dir/all
+all: CMakeFiles/learnopengl_tutorial.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/OpenGL_Test_HelloTriangle.dir/clean
+clean: CMakeFiles/learnopengl_tutorial.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/OpenGL_Test_HelloTriangle.dir
+# Target rules for target CMakeFiles/learnopengl_tutorial.dir
 
 # All Build rule for target.
-CMakeFiles/OpenGL_Test_HelloTriangle.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_Test_HelloTriangle.dir/build.make CMakeFiles/OpenGL_Test_HelloTriangle.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_Test_HelloTriangle.dir/build.make CMakeFiles/OpenGL_Test_HelloTriangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target OpenGL_Test_HelloTriangle"
-.PHONY : CMakeFiles/OpenGL_Test_HelloTriangle.dir/all
+CMakeFiles/learnopengl_tutorial.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnopengl_tutorial.dir/build.make CMakeFiles/learnopengl_tutorial.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnopengl_tutorial.dir/build.make CMakeFiles/learnopengl_tutorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target learnopengl_tutorial"
+.PHONY : CMakeFiles/learnopengl_tutorial.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OpenGL_Test_HelloTriangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_Test_HelloTriangle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/OpenGL_Test_HelloTriangle.dir/rule
+CMakeFiles/learnopengl_tutorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learnopengl_tutorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/learnopengl_tutorial.dir/rule
 
 # Convenience name for target.
-OpenGL_Test_HelloTriangle: CMakeFiles/OpenGL_Test_HelloTriangle.dir/rule
+learnopengl_tutorial: CMakeFiles/learnopengl_tutorial.dir/rule
 
-.PHONY : OpenGL_Test_HelloTriangle
+.PHONY : learnopengl_tutorial
 
 # clean rule for target.
-CMakeFiles/OpenGL_Test_HelloTriangle.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_Test_HelloTriangle.dir/build.make CMakeFiles/OpenGL_Test_HelloTriangle.dir/clean
-.PHONY : CMakeFiles/OpenGL_Test_HelloTriangle.dir/clean
+CMakeFiles/learnopengl_tutorial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnopengl_tutorial.dir/build.make CMakeFiles/learnopengl_tutorial.dir/clean
+.PHONY : CMakeFiles/learnopengl_tutorial.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -2,19 +2,15 @@
 #include <vector>
 #include <cmath>
 
-#include <glad/glad.h>
+#include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 //#include <glm/gtx/string_cast.hpp>
 
-#include <assimp/Importer.hpp>
-#include <assimp/scene.h>
-#include <assimp/postprocess.h>
-
 #define STB_IMAGE_IMPLEMENTATION
-#include "additional/stb_image.h"
+#include <stb_image.h>
 #include "Shader.h"
 #include "Cumera.h"
 #include "Mesh.h"
@@ -66,11 +62,16 @@ int main() {
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
 
-    if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    if(glewInit())
     {
-        std::cout << "Failed to initialize GLAD" << std::endl;
+        std::cout << "Failed to initialize GLEW" << std::endl;
         return -1;
     }
+//    if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+//    {
+//        std::cout << "Failed to initialize GLAD" << std::endl;
+//        return -1;
+//    }
 
 //
 //    const char* vertexPathLighting = "../shaders/lighting.vert";

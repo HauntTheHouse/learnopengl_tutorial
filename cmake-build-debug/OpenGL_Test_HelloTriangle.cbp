@@ -5,47 +5,47 @@
 		<Option title="OpenGL_Test_HelloTriangle"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
+				<Option working_dir="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
+				<Option working_dir="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
+				<Option working_dir="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OpenGL_Test_HelloTriangle">
-				<Option output="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/OpenGL_Test_HelloTriangle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
+				<Option output="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/OpenGL_Test_HelloTriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
-					<Add directory="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle"/>
+					<Add directory="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
+					<Add directory="/home/durda/CLionProjects/learnopengl_tutorial"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -55,21 +55,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Test_HelloTriangle"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Test_HelloTriangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OpenGL_Test_HelloTriangle/fast">
-				<Option output="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/OpenGL_Test_HelloTriangle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
+				<Option output="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/OpenGL_Test_HelloTriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug"/>
-					<Add directory="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle"/>
+					<Add directory="/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug"/>
+					<Add directory="/home/durda/CLionProjects/learnopengl_tutorial"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -79,48 +79,39 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Test_HelloTriangle/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL_Test_HelloTriangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/learnopengl_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/Cumera.h">
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/Cumera.h">
 			<Option target="OpenGL_Test_HelloTriangle"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/Mesh.h">
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/Mesh.h">
 			<Option target="OpenGL_Test_HelloTriangle"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/Model.h">
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/Model.h">
 			<Option target="OpenGL_Test_HelloTriangle"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/Shader.h">
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/Shader.h">
 			<Option target="OpenGL_Test_HelloTriangle"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/additional/glad.c">
-			<Option target="OpenGL_Test_HelloTriangle"/>
-		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/additional/glad.h">
-			<Option target="OpenGL_Test_HelloTriangle"/>
-		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/main.cpp">
-			<Option target="OpenGL_Test_HelloTriangle"/>
-		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/CMakeLists.txt">
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/OpenGL_Test_HelloTriangle/../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/learnopengl_tutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
